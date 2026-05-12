@@ -5,7 +5,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, fil
 TOKEN = os.environ.get("8768027310:AAG0kNJAEPKQkLKMMrOeeL31BCd9YE0-uDQ")
 
 if not TOKEN:
-    raise Exception("BOT_TOKEN is missing in environment variables")
+    raise Exception("8768027310:AAG0kNJAEPKQkLKMMrOeeL31BCd9YE0-uDQ")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     keyboard = [["Start Bot"]]
